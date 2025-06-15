@@ -9,3 +9,5 @@ Route::post('/generate-exercises', [\App\Http\Controllers\MainController::class,
 Route::get('/print-exercises', [\App\Http\Controllers\MainController::class, 'printExercises'])->name('printExercises');;
 
 Route::get('/export-exercises', [\App\Http\Controllers\MainController::class, 'exportExercise'])->name('exportExercises');;
+
+
